@@ -10,18 +10,18 @@ import io
 
 ###CONSTANTS###
 JSON_HEADERS = {
-    'Authorization': 'pk_6301319_S7FUWRI2ZQJPCRJPE2SPO9YZVOS3LPBF',
+    'Authorization': '',
     'Content-Type': 'application/json'
     }
 
 MPFORM_HEADERS = {
-    'Authorization': 'pk_6301319_S7FUWRI2ZQJPCRJPE2SPO9YZVOS3LPBF',
+    'Authorization': '',
     'Content-Type': 'multipart/form-data'
     }
 
-LIST = '21088336' #list corresponds to "Research" section of ClickUp
+LIST = ''
 
-TASKID = '6ja8hy' #task to retrieve for testing
+TASKID = '' #task to retrieve for testing
 ###############
 
 attachment = open("keyboard.png", "rb").read()
