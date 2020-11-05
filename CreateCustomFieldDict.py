@@ -1,11 +1,16 @@
 import urllib.request
 import json
 
+
+
 ####CONSTANTS####
-DICT_ID = 'awkpfk' #task where all custom field data can be retrieved from (Currently located in 'Brady Bess - Essential Onboarding' list)
+
+#This is to be located in a separate workspace in a separate task.  Fill a task full of every single custom field you have created, this will provide the program
+#the ability to access and reference the unique IDs of each custom field that (to my knowledge) is only accessible through a response body of an API request. 
+DICT_ID = '' #task where all custom field data can be retrieved from (Currently located in 'Brady Bess - Essential Onboarding' list)
 
 JSON_HEADERS = {
-    'Authorization': 'pk_6301319_S7FUWRI2ZQJPCRJPE2SPO9YZVOS3LPBF',
+    'Authorization': '',
     'Content-Type': 'application/json'
     }
 #################
