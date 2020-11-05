@@ -16,9 +16,11 @@ kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
 #This script creates a new task in ClickUp and appends the task ID to follow office naming conventions
 #Written by Brady Bess, PandA Tech Office
 
+#INSERT CLICKUP AUTHORIZATION HEADER INTO CONSTANT FIELD BELOW
+
 ###CONSTANTS###
 JSON_HEADERS = {
-    'Authorization': 'pk_6301319_S7FUWRI2ZQJPCRJPE2SPO9YZVOS3LPBF',
+    'Authorization': '',
     'Content-Type': 'application/json'
     }
 
@@ -46,7 +48,7 @@ def create_Task(row):
         "name": \"""" + row['Name'] + """\",
         "description": \"""" + row['Description'] + """\",
         "assignees": [ 
-            6301319
+            
         ],
         "tags": [],
         "status": "Backlog",
