@@ -13,8 +13,8 @@ kernel32 = ctypes.windll.kernel32
 kernel32.SetConsoleMode(kernel32.GetStdHandle(-11), 7)
 
 
-#This script creates a new task in ClickUp and appends the task ID to follow office naming conventions
-#Written by Brady Bess, PandA Tech Office
+#This script creates a new task in ClickUp and appends the task ID to follow created naming convention
+#Written by Brady Bess
 
 #INSERT CLICKUP AUTHORIZATION HEADER INTO CONSTANT FIELD BELOW
 
